@@ -2,7 +2,7 @@
   "name": "bitcoin-buy-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/Bitcoin-Buy",
+  "homepage": "https://pokejaysim.github.io/Bitcoin-Buy",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@testing-library/dom": "^10.4.1",
