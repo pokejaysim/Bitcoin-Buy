@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bitcoin-Buy/static/css/main.13a1dccd.css",
+    "main.js": "/Bitcoin-Buy/static/js/main.524c8ff2.js",
+    "static/js/453.12890e46.chunk.js": "/Bitcoin-Buy/static/js/453.12890e46.chunk.js",
+    "index.html": "/Bitcoin-Buy/index.html",
+    "main.13a1dccd.css.map": "/Bitcoin-Buy/static/css/main.13a1dccd.css.map",
+    "main.524c8ff2.js.map": "/Bitcoin-Buy/static/js/main.524c8ff2.js.map",
+    "453.12890e46.chunk.js.map": "/Bitcoin-Buy/static/js/453.12890e46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13a1dccd.css",
+    "static/js/main.524c8ff2.js"
+  ]
+}
