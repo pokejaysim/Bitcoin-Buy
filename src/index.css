@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-dark-bg text-dark-text font-sans antialiased;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .glassmorphism {
+    @apply backdrop-blur-md border border-white/10 shadow-xl;
+    background: rgba(42, 42, 42, 0.5);
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(135deg, #1A1A1A 0%, #2A2A2A 50%, #1A1A1A 100%);
+  }
+  
+  .bitcoin-gradient {
+    background: linear-gradient(135deg, #F7931A 0%, #00D4FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .pulse-ring {
+    @apply absolute rounded-full opacity-75 animate-ping;
+    animation-duration: 2s;
+  }
+}
+
+@layer utilities {
+  .animate-counter {
+    animation: counter 0.6s ease-out forwards;
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.3s ease-out;
+  }
+}
+
+@keyframes counter {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
