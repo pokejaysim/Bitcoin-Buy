@@ -71,6 +71,27 @@ The application will be available at `http://localhost:3000`
 npm run build
 ```
 
+## 🚀 GitHub Pages Deployment
+
+This project is configured for easy GitHub Pages deployment:
+
+### Quick Deploy
+1. Update the `homepage` field in `package.json` with your GitHub username:
+   ```json
+   "homepage": "https://yourusername.github.io/Bitcoin-Buy"
+   ```
+
+2. Deploy to GitHub Pages:
+   ```bash
+   npm run deploy
+   ```
+
+3. Enable GitHub Pages in your repository settings (Settings → Pages → Source: gh-pages branch)
+
+Your site will be live at `https://yourusername.github.io/Bitcoin-Buy/`
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
+
 ## 🔧 Configuration
 
 ### Manual Settings

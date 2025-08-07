@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Bitcoin Buy",
+  "name": "Bitcoin Buy Indicator - AI-Powered Technical Analysis",
+  "description": "Real-time Bitcoin buy signals using technical indicators and market sentiment",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#F7931A",
+  "background_color": "#1A1A1A"
 }
